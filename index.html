@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Reddy - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-spinner"></div>
+        <p>Loading...</p>
+    </div>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>RAHUL REDDY</h1>
+                <span class="tagline">Full Stack Developer</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#work" class="nav-link">WORK</a></li>
+                    <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>I'M A FULL-STACK</h2>
+                    <h2>DEVELOPER & DESIGNER.</h2>
+                    <p>I create beautiful and functional web experiences that bring ideas to life through code and creativity.</p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary">View My Work</button>
+                        <button class="btn btn-secondary">Get In Touch</button>
+                    </div>
+                </div>
+                <div class="hero-3d">
+                    <canvas id="canvas3d"></canvas>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>I'm a passionate full-stack developer with expertise in modern web technologies. I love creating immersive digital experiences that combine beautiful design with powerful functionality.</p>
+                        <p>My journey in tech spans across frontend development, backend systems, and everything in between. I'm always eager to learn new technologies and tackle challenging projects.</p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3>3+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>20+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="work">
+            <div class="container">
+                <h2 class="section-title">My Work</h2>
+                <div class="work-grid">
+                    <div class="work-item">
+                        <div class="work-image">
+                            <div class="placeholder-img">Project 1</div>
+                        </div>
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with React and Node.js</p>
+                        <div class="work-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image">
+                            <div class="placeholder-img">Project 2</div>
+                        </div>
+                        <h3>Dashboard Analytics</h3>
+                        <p>Real-time analytics dashboard with data visualization</p>
+                        <div class="work-tech">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="work-item">
+                        <div class="work-image">
+                            <div class="placeholder-img">Project 3</div>
+                        </div>
+                        <h3>Mobile App</h3>
+                        <p>Cross-platform mobile application with React Native</p>
+                        <div class="work-tech">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <div class="skill-list">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Vue.js</span>
+                            <span>Three.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <div class="skill-list">
+                            <span>Node.js</span>
+                            <span>Python</span>
+                            <span>Express</span>
+                            <span>Django</span>
+                            <span>PostgreSQL</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools & Others</h3>
+                        <div class="skill-list">
+                            <span>Git</span>
+                            <span>Docker</span>
+                            <span>AWS</span>
+                            <span>Figma</span>
+                            <span>Photoshop</span>
+                            <span>Blender</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always open to discussing new opportunities and exciting projects. Let's create something amazing together!</p>
+                        <div class="contact-links">
+                            <a href="mailto:hello@rahulreddy.dev" class="contact-link">
+                                <span>Email</span>
+                                <span>hello@rahulreddy.dev</span>
+                            </a>
+                            <a href="https://linkedin.com/in/rahulreddy" class="contact-link">
+                                <span>LinkedIn</span>
+                                <span>@rahulreddy</span>
+                            </a>
+                            <a href="https://github.com/rahulreddy" class="contact-link">
+                                <span>GitHub</span>
+                                <span>@rahulreddy</span>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Rahul Reddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
